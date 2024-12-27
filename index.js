@@ -20,3 +20,20 @@
 // console.log(obj1.hobies[1])
 // console.log(obj1["schools"])
 // console.log(obj1.function())
+
+// //creating objects using the concept of inheritance use the Object.create()method you pass yor parent as the parameter
+// const university={
+//     english:"A",
+//     Kiswahili:"B",
+//     Biology:"C",
+//     action:function(){
+//         return `You should have a minimum of grade ${this.Biology}`
+//     }
+// }
+// const collegue= Object.create(university)
+// collegue.action2 ={
+//     minimum:function(){
+//         return `You should have a mean grade of ${this.Kiswahili} to join our collegue`
+//     },
+// }
+// console.log(collegue.action2.minimum())
